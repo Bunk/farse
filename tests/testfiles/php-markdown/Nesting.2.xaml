@@ -1,0 +1,29 @@
+<!-- Paragraph -->
+<Paragraph>
+Valid nesting:
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+<Bold><!-- Hyperlink --><Hyperlink NavigateUri="url">Link</Hyperlink></Bold>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+<!-- Hyperlink --><Hyperlink NavigateUri="url"><Bold>Link</Bold></Hyperlink>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+<Bold>[</Bold>Link<Bold>](url)</Bold>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Invalid nesting:
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+<!-- Hyperlink --><Hyperlink NavigateUri="url"><!-- Hyperlink --><Hyperlink NavigateUri="url">Link</Hyperlink></Hyperlink>
+</Paragraph>

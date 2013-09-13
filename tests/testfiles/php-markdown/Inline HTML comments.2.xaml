@@ -1,0 +1,20 @@
+<!-- Paragraph -->
+<Paragraph>
+Paragraph one.
+</Paragraph>
+
+<!-- HTML Block -->
+<!-- double--dash (invalid SGML comment) -->
+
+<!-- Paragraph -->
+<Paragraph>
+Paragraph two.
+</Paragraph>
+
+<!-- HTML Block -->
+<!-- enclosed tag </div> -->
+
+<!-- Paragraph -->
+<Paragraph>
+The end.
+</Paragraph>

@@ -1,0 +1,29 @@
+<!-- Paragraph -->
+<Paragraph>
+[Inline link 1 with parens](/url(test) "title").
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+[Inline link 2 with parens](</url\(test\)> "title").
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+<!-- Hyperlink --><Hyperlink NavigateUri="/url(test)">Inline link 3 with non-escaped parens</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+<!-- Hyperlink --><Hyperlink NavigateUri="/url(test)">Inline link 4 with non-escaped parens</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+<!-- Hyperlink --><Hyperlink NavigateUri="/url(test)">Reference link 1 with parens</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+<!-- Hyperlink --><Hyperlink NavigateUri="/url(test)">Reference link 2 with parens</Hyperlink>.
+</Paragraph>

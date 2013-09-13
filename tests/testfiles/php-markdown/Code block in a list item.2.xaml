@@ -1,0 +1,12 @@
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+        <!-- List Code Block -->
+        <!-- List Paragraph -->
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>

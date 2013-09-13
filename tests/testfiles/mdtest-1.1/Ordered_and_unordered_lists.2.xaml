@@ -1,0 +1,361 @@
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Unordered</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Asterisks tight:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->asterisk 1
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->asterisk 2
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->asterisk 3
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Asterisks loose:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- Paragraph -->
+<Paragraph>
+Pluses tight:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Plus 1
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Plus 2
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Plus 3
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Pluses loose:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- Paragraph -->
+<Paragraph>
+Minuses tight:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Minus 1
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Minus 2
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Minus 3
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Minuses loose:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Ordered</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Tight:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->First
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Second
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Third
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+and:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->One
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Two
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Three
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Loose using tabs:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+and using spaces:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Multiple paragraphs:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Nested</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Tab
+        <!-- Nested List -->
+          <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+          <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Tab
+            <!-- Nested List -->
+              <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+              <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Tab
+              </Grid>
+          </Grid>
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Here's another:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->First
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Second:
+        <!-- Nested List -->
+          <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+          <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Fee
+          </Grid>
+          <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+          <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Fie
+          </Grid>
+          <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+          <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Foe
+          </Grid>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Third
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Same thing but with paragraphs:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Second:
+        <!-- Nested List -->
+          <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+          <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Fee
+          </Grid>
+          <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+          <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->Fie
+          </Grid>
+          <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+          <TextBlock Grid.Column="0">&#x2022;</TextBlock>            <!-- List Paragraph -->
+          </Grid>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+This was an error in Markdown 1.0.1:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+        <!-- Nested List -->
+          <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+          <TextBlock Grid.Column="0">&#x2022;</TextBlock>            <!-- List Paragraph -->
+            <!-- List Paragraph -->
+          </Grid>
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>

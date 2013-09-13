@@ -1,0 +1,20 @@
+<!-- Quoted Block -->
+<Paragraph Style="{StaticResource BlockQuote}">
+  <!-- Paragraph -->
+  <Paragraph>
+foo
+  </Paragraph>
+
+  <!-- Quoted Block -->
+  <Paragraph Style="{StaticResource BlockQuote}">
+    <!-- Paragraph -->
+    <Paragraph>
+bar
+    </Paragraph>
+  </Paragraph>
+
+  <!-- Paragraph -->
+  <Paragraph>
+foo
+  </Paragraph>
+</Paragraph>

@@ -1,0 +1,202 @@
+<!-- Paragraph -->
+<Paragraph>
+Combined emphasis:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold><Italic>test test</Italic></Bold>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold><Italic>test test</Italic></Bold>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Italic>test </Italic><Italic>test</Italic><Italic></Italic>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold>test *test</Bold>*
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold><Italic>test</Italic> test</Bold>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold>*test</Bold> test*
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold><Italic>test</Italic> test</Bold>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold>test *test</Bold>*
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Italic>test </Italic><Italic>test</Italic><Italic></Italic>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Italic>test </Italic><Italic>test</Italic><Italic></Italic>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold>test _test</Bold>_
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold><Italic>test</Italic> test</Bold>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold>_test</Bold> test_
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold><Italic>test</Italic> test</Bold>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold>test _test</Bold>_
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Italic>test </Italic><Italic>test</Italic><Italic></Italic>
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Incorrect nesting:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Italic>test  </Italic><Italic>test</Italic>  test<Italic></Italic>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Italic>test  </Italic><Italic>test</Italic>  test<Italic></Italic>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold>test  *test</Bold> test*
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold>test  _test</Bold> test_
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Italic>test   </Italic>test<Italic>  test</Italic>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Italic>test   </Italic>test<Italic>  test</Italic>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold>test </Bold>test<Bold> test</Bold>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold>test </Bold>test<Bold> test</Bold>
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+No emphasis:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->test<Italic>  test  </Italic>test
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->test<Bold> test </Bold>test
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->test<Italic>  test  </Italic>test
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->test<Bold> test </Bold>test
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Middle-word emphasis (asterisks):
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Italic>a</Italic>b
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->a<Italic>b</Italic>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->a<Italic>b</Italic>c
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold>a</Bold>b
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->a<Bold>b</Bold>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->a<Bold>b</Bold>c
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Middle-word emphasis (underscore):
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Italic>a</Italic>b
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->a<Italic>b</Italic>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->a<Italic>b</Italic>c
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><Bold>a</Bold>b
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->a<Bold>b</Bold>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->a<Bold>b</Bold>c
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+my<Italic>precious</Italic>file.txt
+</Paragraph>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Tricky Cases</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+E<Bold>. </Bold>Test<Italic></Italic> TestTestTest
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+E<Bold>. </Bold>Test<Italic></Italic> Test Test Test
+</Paragraph>

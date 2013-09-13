@@ -1,0 +1,12 @@
+> A list within a blockquote:
+> 
+> *	asterisk 1
+> *	asterisk 2
+> *	asterisk 3
+
+* A list item with a code block
+		This should be some code...
+
+* A list item with a blockquote
+  > This is a blockquote
+  > inside a list item.

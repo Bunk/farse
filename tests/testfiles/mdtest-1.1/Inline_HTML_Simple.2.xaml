@@ -1,0 +1,116 @@
+<!-- Paragraph -->
+<Paragraph>
+Here's a simple block:
+</Paragraph>
+
+<!-- HTML Block -->
+<div>
+    foo
+</div>
+
+<!-- Paragraph -->
+<Paragraph>
+This should be a code block, though:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;div&gt;
+    foo
+&lt;/div&gt;</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+As should this:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;div&gt;foo&lt;/div&gt;</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Now, nested:
+</Paragraph>
+
+<!-- HTML Block -->
+<div>
+    <div>
+        <div>
+            foo
+        </div>
+    </div>
+</div>
+
+<!-- Paragraph -->
+<Paragraph>
+This should just be an HTML comment:
+</Paragraph>
+
+<!-- HTML Block -->
+<!-- Comment -->
+
+<!-- Paragraph -->
+<Paragraph>
+Multiline:
+</Paragraph>
+
+<!-- HTML Block -->
+<!--
+Blah
+Blah
+-->
+
+<!-- Paragraph -->
+<Paragraph>
+Code block:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;!-- Comment --&gt;</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Just plain comment, with trailing spaces on the line:
+</Paragraph>
+
+<!-- HTML Block -->
+<!-- foo -->   
+
+<!-- Paragraph -->
+<Paragraph>
+Code:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;hr /&gt;</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Hr's:
+</Paragraph>
+
+<!-- HTML Block -->
+<hr>
+
+<!-- HTML Block -->
+<hr/>
+
+<!-- HTML Block -->
+<hr />
+
+<!-- HTML Block -->
+<hr>   
+
+<!-- HTML Block -->
+<hr/>  
+
+<!-- HTML Block -->
+<hr /> 
+
+<!-- HTML Block -->
+<hr class="foo" id="bar" />
+
+<!-- HTML Block -->
+<hr class="foo" id="bar"/>
+
+<!-- HTML Block -->
+<hr class="foo" id="bar" >

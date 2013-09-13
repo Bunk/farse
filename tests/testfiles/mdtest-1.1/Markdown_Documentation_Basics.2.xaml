@@ -1,0 +1,434 @@
+<!-- H1 -->
+<Paragraph Style="{StaticResource Heading1}">Markdown: Basics</Paragraph>
+
+<!-- HTML Block -->
+<ul id="ProjectSubmenu">
+    <li><a href="/projects/markdown/" title="Markdown Project Page">Main</a></li>
+    <li><a class="selected" title="Markdown Basics">Basics</a></li>
+    <li><a href="/projects/markdown/syntax" title="Markdown Syntax Documentation">Syntax</a></li>
+    <li><a href="/projects/markdown/license" title="Pricing and License Information">License</a></li>
+    <li><a href="/projects/markdown/dingus" title="Online Markdown Web Form">Dingus</a></li>
+</ul>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Getting the Gist of Markdown's Formatting Syntax</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+This page offers a brief overview of what it's like to use Markdown.
+The <!-- Hyperlink --><Hyperlink NavigateUri="/projects/markdown/syntax">syntax page</Hyperlink> provides complete, detailed documentation for
+every feature, but Markdown should be very easy to pick up simply by
+looking at a few examples of it in action. The examples on this page
+are written in a before/after style, showing example syntax and the
+HTML output produced by Markdown.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+It's also helpful to simply try Markdown out; the <!-- Hyperlink --><Hyperlink NavigateUri="/projects/markdown/dingus">Dingus</Hyperlink> is a
+web application that allows you type your own Markdown-formatted text
+and translate it to XHTML.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+<Bold>Note:</Bold> This document is itself written using Markdown; you
+can <!-- Hyperlink --><Hyperlink NavigateUri="/projects/markdown/basics.text">see the source for it by adding '.text' to the URL</Hyperlink>.
+</Paragraph>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Paragraphs, Headers, Blockquotes</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+A paragraph is simply one or more consecutive lines of text, separated
+by one or more blank lines. (A blank line is any line that looks like a
+blank line -- a line containing nothing spaces or tabs is considered
+blank.) Normal paragraphs should not be intended with spaces or tabs.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Markdown offers two styles of headers: <Italic>Setext</Italic> and <Italic>atx</Italic>.
+Setext-style headers for <InlineUIContainer Style="{StaticResource InlineCodeStyle}">&lt;h1&gt;</InlineUIContainer> and <InlineUIContainer Style="{StaticResource InlineCodeStyle}">&lt;h2&gt;</InlineUIContainer> are created by
+"underlining" with equal signs (<InlineUIContainer Style="{StaticResource InlineCodeStyle}">=</InlineUIContainer>) and hyphens (<InlineUIContainer Style="{StaticResource InlineCodeStyle}">-</InlineUIContainer>), respectively.
+To create an atx-style header, you put 1-6 hash marks (<InlineUIContainer Style="{StaticResource InlineCodeStyle}">#</InlineUIContainer>) at the
+beginning of the line -- the number of hashes equals the resulting
+HTML header level.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Blockquotes are indicated using email-style '<InlineUIContainer Style="{StaticResource InlineCodeStyle}">&gt;</InlineUIContainer>' angle brackets.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Markdown:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>A First Level Header
+====================
+
+A Second Level Header
+---------------------
+
+Now is the time for all good men to come to
+the aid of their country. This is just a
+regular paragraph.
+
+The quick brown fox jumped over the lazy
+dog's back.
+
+### Header 3
+
+&gt; This is a blockquote.
+&gt; 
+&gt; This is the second paragraph in the blockquote.
+&gt;
+&gt; ## This is an H2 in a blockquote</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Output:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;h1&gt;A First Level Header&lt;/h1&gt;
+
+&lt;h2&gt;A Second Level Header&lt;/h2&gt;
+
+&lt;p&gt;Now is the time for all good men to come to
+the aid of their country. This is just a
+regular paragraph.&lt;/p&gt;
+
+&lt;p&gt;The quick brown fox jumped over the lazy
+dog's back.&lt;/p&gt;
+
+&lt;h3&gt;Header 3&lt;/h3&gt;
+
+&lt;blockquote&gt;
+    &lt;p&gt;This is a blockquote.&lt;/p&gt;
+
+    &lt;p&gt;This is the second paragraph in the blockquote.&lt;/p&gt;
+
+    &lt;h2&gt;This is an H2 in a blockquote&lt;/h2&gt;
+&lt;/blockquote&gt;</Paragraph>
+
+<!-- H3 -->
+<Paragraph Style="{StaticResource Heading3}">Phrase Emphasis</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Markdown uses asterisks and underscores to indicate spans of emphasis.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Markdown:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>Some of these words *are emphasized*.
+Some of these words _are emphasized also_.
+
+Use two asterisks for **strong emphasis**.
+Or, if you prefer, __use two underscores instead__.</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Output:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;p&gt;Some of these words &lt;em&gt;are emphasized&lt;/em&gt;.
+Some of these words &lt;em&gt;are emphasized also&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Use two asterisks for &lt;strong&gt;strong emphasis&lt;/strong&gt;.
+Or, if you prefer, &lt;strong&gt;use two underscores instead&lt;/strong&gt;.&lt;/p&gt;</Paragraph>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Lists</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Unordered (bulleted) lists use asterisks, pluses, and hyphens (<InlineUIContainer Style="{StaticResource InlineCodeStyle}">*</InlineUIContainer>,
+<InlineUIContainer Style="{StaticResource InlineCodeStyle}">+</InlineUIContainer>, and <InlineUIContainer Style="{StaticResource InlineCodeStyle}">-</InlineUIContainer>) as list markers. These three markers are
+interchangable; this:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>*   Candy.
+*   Gum.
+*   Booze.</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+this:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>+   Candy.
++   Gum.
++   Booze.</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+and this:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>-   Candy.
+-   Gum.
+-   Booze.</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+all produce the same output:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;ul&gt;
+&lt;li&gt;Candy.&lt;/li&gt;
+&lt;li&gt;Gum.&lt;/li&gt;
+&lt;li&gt;Booze.&lt;/li&gt;
+&lt;/ul&gt;</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Ordered (numbered) lists use regular numbers, followed by periods, as
+list markers:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>1.  Red
+2.  Green
+3.  Blue</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Output:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;ol&gt;
+&lt;li&gt;Red&lt;/li&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;li&gt;Blue&lt;/li&gt;
+&lt;/ol&gt;</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+If you put blank lines between items, you'll get <InlineUIContainer Style="{StaticResource InlineCodeStyle}">&lt;p&gt;</InlineUIContainer> tags for the
+list item text. You can create multi-paragraph list items by indenting
+the paragraphs by 4 spaces or 1 tab:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>*   A list item.
+
+    With multiple paragraphs.
+
+*   Another item in the list.</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Output:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A list item.&lt;/p&gt;
+&lt;p&gt;With multiple paragraphs.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Another item in the list.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</Paragraph>
+
+<!-- H3 -->
+<Paragraph Style="{StaticResource Heading3}">Links</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Markdown supports two styles for creating links: <Italic>inline</Italic> and
+<Italic>reference</Italic>. With both styles, you use square brackets to delimit the
+text you want to turn into a link.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Inline-style links use parentheses immediately after the link text.
+For example:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>This is an [example link](http://example.com/).</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Output:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;p&gt;This is an &lt;a href="http://example.com/"&gt;
+example link&lt;/a&gt;.&lt;/p&gt;</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Optionally, you may include a title attribute in the parentheses:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>This is an [example link](http://example.com/ "With a Title").</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Output:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;p&gt;This is an &lt;a href="http://example.com/" title="With a Title"&gt;
+example link&lt;/a&gt;.&lt;/p&gt;</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Reference-style links allow you to refer to your links by names, which
+you define elsewhere in your document:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>I get 10 times more traffic from [Google][1] than from
+[Yahoo][2] or [MSN][3].
+
+[1]: http://google.com/        "Google"
+[2]: http://search.yahoo.com/  "Yahoo Search"
+[3]: http://search.msn.com/    "MSN Search"</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Output:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;p&gt;I get 10 times more traffic from &lt;a href="http://google.com/"
+title="Google"&gt;Google&lt;/a&gt; than from &lt;a href="http://search.yahoo.com/"
+title="Yahoo Search"&gt;Yahoo&lt;/a&gt; or &lt;a href="http://search.msn.com/"
+title="MSN Search"&gt;MSN&lt;/a&gt;.&lt;/p&gt;</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+The title attribute is optional. Link names may contain letters,
+numbers and spaces, but are <Italic>not</Italic> case sensitive:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>I start my morning with a cup of coffee and
+[The New York Times][NY Times].
+
+[ny times]: http://www.nytimes.com/</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Output:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;p&gt;I start my morning with a cup of coffee and
+&lt;a href="http://www.nytimes.com/"&gt;The New York Times&lt;/a&gt;.&lt;/p&gt;</Paragraph>
+
+<!-- H3 -->
+<Paragraph Style="{StaticResource Heading3}">Images</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Image syntax is very much like link syntax.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Inline (titles are optional):
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>![alt text](/path/to/img.jpg "Title")</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Reference-style:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>![alt text][id]
+
+[id]: /path/to/img.jpg "Title"</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Both of the above examples produce the same output:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;img src="/path/to/img.jpg" alt="alt text" title="Title" /&gt;</Paragraph>
+
+<!-- H3 -->
+<Paragraph Style="{StaticResource Heading3}">Code</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+In a regular paragraph, you can create code span by wrapping text in
+backtick quotes. Any ampersands (<InlineUIContainer Style="{StaticResource InlineCodeStyle}">&amp;</InlineUIContainer>) and angle brackets (<InlineUIContainer Style="{StaticResource InlineCodeStyle}">&lt;</InlineUIContainer> or
+<InlineUIContainer Style="{StaticResource InlineCodeStyle}">&gt;</InlineUIContainer>) will automatically be translated into HTML entities. This makes
+it easy to use Markdown to write about HTML example code:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>I strongly recommend against using any `&lt;blink&gt;` tags.
+
+I wish SmartyPants used named entities like `&amp;mdash;`
+instead of decimal-encoded entites like `&amp;#8212;`.</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Output:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;p&gt;I strongly recommend against using any
+&lt;code&gt;&amp;lt;blink&amp;gt;&lt;/code&gt; tags.&lt;/p&gt;
+
+&lt;p&gt;I wish SmartyPants used named entities like
+&lt;code&gt;&amp;amp;mdash;&lt;/code&gt; instead of decimal-encoded
+entites like &lt;code&gt;&amp;amp;#8212;&lt;/code&gt;.&lt;/p&gt;</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+To specify an entire block of pre-formatted code, indent every line of
+the block by 4 spaces or 1 tab. Just like with code spans, <InlineUIContainer Style="{StaticResource InlineCodeStyle}">&amp;</InlineUIContainer>, <InlineUIContainer Style="{StaticResource InlineCodeStyle}">&lt;</InlineUIContainer>,
+and <InlineUIContainer Style="{StaticResource InlineCodeStyle}">&gt;</InlineUIContainer> characters will be escaped automatically.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Markdown:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>If you want your page to validate under XHTML 1.0 Strict,
+you've got to put paragraph tags in your blockquotes:
+
+    &lt;blockquote&gt;
+        &lt;p&gt;For example.&lt;/p&gt;
+    &lt;/blockquote&gt;</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Output:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;p&gt;If you want your page to validate under XHTML 1.0 Strict,
+you've got to put paragraph tags in your blockquotes:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;blockquote&amp;gt;
+    &amp;lt;p&amp;gt;For example.&amp;lt;/p&amp;gt;
+&amp;lt;/blockquote&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;</Paragraph>

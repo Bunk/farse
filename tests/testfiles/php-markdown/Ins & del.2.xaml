@@ -1,0 +1,30 @@
+<!-- Paragraph -->
+<Paragraph>
+Here is a block tag ins:
+</Paragraph>
+
+<!-- HTML Block -->
+<ins>
+<p>Some text</p>
+</ins>
+
+<!-- HTML Block -->
+<ins>And here it is inside a paragraph.</ins>
+
+<!-- Paragraph -->
+<Paragraph>
+And here it is <ins>in the middle of</ins> a paragraph.
+</Paragraph>
+
+<!-- HTML Block -->
+<del>
+<p>Some text</p>
+</del>
+
+<!-- HTML Block -->
+<del>And here is ins as a paragraph.</del>
+
+<!-- Paragraph -->
+<Paragraph>
+And here it is <del>in the middle of</del> a paragraph.
+</Paragraph>

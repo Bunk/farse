@@ -1,0 +1,42 @@
+<!-- Paragraph -->
+<Paragraph>
+Link: <!-- Hyperlink --><Hyperlink NavigateUri="http://example.com/">http://example.com/</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+With an ampersand: <!-- Hyperlink --><Hyperlink NavigateUri="http://example.com/?foo=1&amp;bar=2">http://example.com/?foo=1&bar=2</Hyperlink>
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->In a list?
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans --><!-- Hyperlink --><Hyperlink NavigateUri="http://example.com/">http://example.com/</Hyperlink>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->It should.
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Quoted Block -->
+<Paragraph Style="{StaticResource BlockQuote}">
+  <!-- Paragraph -->
+  <Paragraph>
+Blockquoted: <!-- Hyperlink --><Hyperlink NavigateUri="http://example.com/">http://example.com/</Hyperlink>
+  </Paragraph>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Auto-links should not occur here: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">&lt;http://example.com/&gt;</InlineUIContainer>
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>or here: &lt;http://example.com/&gt;</Paragraph>

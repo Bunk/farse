@@ -1,0 +1,64 @@
+<!-- Paragraph -->
+<Paragraph>
+Horizontal rules:
+</Paragraph>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- Paragraph -->
+<Paragraph>
+Not horizontal rules (testing for a bug in 1.0.1j):
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
++++
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+,,,
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+===
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+???
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+AAA
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+jjj
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+j j j
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+n n n
+</Paragraph>

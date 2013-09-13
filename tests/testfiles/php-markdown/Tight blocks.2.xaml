@@ -1,0 +1,44 @@
+<!-- Paragraph -->
+<Paragraph>
+Paragraph and no space:
+* ciao
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Paragraph and 1 space:
+ * ciao
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Paragraph and 3 spaces:
+  * ciao
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Paragraph and 4 spaces:
+   * ciao
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Paragraph before header:
+</Paragraph>
+
+<!-- H1 -->
+<Paragraph Style="{StaticResource Heading1}">Header</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Paragraph before blockquote:
+</Paragraph>
+
+<!-- Quoted Block -->
+<Paragraph Style="{StaticResource BlockQuote}">
+  <!-- Paragraph -->
+  <Paragraph>
+Some quote.
+  </Paragraph>
+</Paragraph>

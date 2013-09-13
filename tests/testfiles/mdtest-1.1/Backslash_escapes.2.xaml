@@ -1,0 +1,243 @@
+<!-- Paragraph -->
+<Paragraph>
+These should all get escaped:
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Backslash: \
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Backtick: `
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Asterisk: *
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Underscore: _
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Left brace: {
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Right brace: }
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Left bracket: [
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Right bracket: ]
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Left paren: (
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Right paren: )
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Greater-than: >
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Hash: #
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Period: .
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Bang: !
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Plus: +
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Minus: -
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+These should not, because they occur within a code block:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>Backslash: \\
+
+Backtick: \`
+
+Asterisk: \*
+
+Underscore: \_
+
+Left brace: \{
+
+Right brace: \}
+
+Left bracket: \[
+
+Right bracket: \]
+
+Left paren: \(
+
+Right paren: \)
+
+Greater-than: \&gt;
+
+Hash: \#
+
+Period: \.
+
+Bang: \!
+
+Plus: \+
+
+Minus: \-</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Nor should these, which occur in code spans:
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Backslash: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\\</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Backtick: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\`</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Asterisk: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\*</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Underscore: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\_</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Left brace: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\{</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Right brace: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\}</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Left bracket: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\[</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Right bracket: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\]</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Left paren: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\(</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Right paren: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\)</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Greater-than: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\&gt;</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Hash: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\#</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Period: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\.</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Bang: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\!</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Plus: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\+</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Minus: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\-</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+These should get escaped, even though they're matching pairs for
+other Markdown constructs:
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+*asterisks*
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+_underscores_
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+`backticks`
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+This is a code span with a literal backslash-backtick sequence: <InlineUIContainer Style="{StaticResource InlineCodeStyle}">\`</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+This is a tag with unescaped backticks <span attr='`ticks`'>bar</span>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+This is a tag with backslashes <span attr='\\backslashes\\'>bar</span>.
+</Paragraph>

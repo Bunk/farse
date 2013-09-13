@@ -1,0 +1,104 @@
+<!-- Paragraph -->
+<Paragraph>
+Dashes:
+</Paragraph>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- CodeBlock -->
+<Paragraph>---</Paragraph>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- CodeBlock -->
+<Paragraph>- - -</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Asterisks:
+</Paragraph>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- CodeBlock -->
+<Paragraph>***</Paragraph>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- CodeBlock -->
+<Paragraph>* * *</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Underscores:
+</Paragraph>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- CodeBlock -->
+<Paragraph>___</Paragraph>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- CodeBlock -->
+<Paragraph>_ _ _</Paragraph>

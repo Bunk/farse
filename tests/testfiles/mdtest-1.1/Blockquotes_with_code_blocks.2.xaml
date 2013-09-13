@@ -1,0 +1,22 @@
+<!-- Quoted Block -->
+<Paragraph Style="{StaticResource BlockQuote}">
+  <!-- Paragraph -->
+  <Paragraph>
+Example:
+  </Paragraph>
+
+  <!-- CodeBlock -->
+  <Paragraph>sub status {
+    print "working";
+}  </Paragraph>
+
+  <!-- Paragraph -->
+  <Paragraph>
+Or:
+  </Paragraph>
+
+  <!-- CodeBlock -->
+  <Paragraph>sub status {
+    return "working";
+}  </Paragraph>
+</Paragraph>

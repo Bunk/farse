@@ -1,0 +1,40 @@
+<!-- Quoted Block -->
+<Paragraph Style="{StaticResource BlockQuote}">
+  <!-- Paragraph -->
+  <Paragraph>
+A list within a blockquote:
+  </Paragraph>
+
+  <!-- List (Farse.Markdown.MarkdownListKind) -->
+  <Paragraph>
+    <InlineUIContainer>
+      <StackPanel>
+        <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->asterisk 1
+        </Grid>
+        <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->asterisk 2
+        </Grid>
+        <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->asterisk 3
+        </Grid>
+      </StackPanel>
+    </InlineUIContainer>
+  </Paragraph>
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->A list item with a blockquote
+> This is a blockquote
+> inside a list item.
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>

@@ -1,0 +1,14 @@
+<!-- Paragraph -->
+<Paragraph>
+<InlineUIContainer Style="{StaticResource InlineCodeStyle}">&lt;test a="</InlineUIContainer> content of attribute <InlineUIContainer Style="{StaticResource InlineCodeStyle}">"&gt;</InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Fix for backticks within HTML tag: <span attr='`ticks`'>like this</span>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Here's how you put <InlineUIContainer Style="{StaticResource InlineCodeStyle}">`backticks`</InlineUIContainer> in a code span.
+</Paragraph>

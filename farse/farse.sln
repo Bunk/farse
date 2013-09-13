@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "farse.markdown", "farse.markdown\farse.markdown.fsproj", "{F1372E2E-C462-463D-A297-294050DBA83C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "farse.markdown.tests", "farse.markdown.tests\farse.markdown.tests.fsproj", "{F0795FC6-EF3F-407E-BABC-516884CC15E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1372E2E-C462-463D-A297-294050DBA83C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1372E2E-C462-463D-A297-294050DBA83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1372E2E-C462-463D-A297-294050DBA83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1372E2E-C462-463D-A297-294050DBA83C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0795FC6-EF3F-407E-BABC-516884CC15E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0795FC6-EF3F-407E-BABC-516884CC15E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0795FC6-EF3F-407E-BABC-516884CC15E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0795FC6-EF3F-407E-BABC-516884CC15E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

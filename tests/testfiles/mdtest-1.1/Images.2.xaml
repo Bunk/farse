@@ -1,0 +1,114 @@
+<!-- Paragraph -->
+<Paragraph>
+  <InlineUIContainer>
+    <Image>
+      <Image.Source>
+        <BitmapImage UriSource="/path/to/img.jpg" />
+      </Image.Source>
+    </Image>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+  <InlineUIContainer>
+    <Image>
+      <Image.Source>
+        <BitmapImage UriSource="/path/to/img.jpg" />
+      </Image.Source>
+    </Image>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Inline within a paragraph: <!-- Hyperlink --><Hyperlink NavigateUri="/url/">alt text</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+  <InlineUIContainer>
+    <Image>
+      <Image.Source>
+        <BitmapImage UriSource="/url/" />
+      </Image.Source>
+    </Image>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+  <InlineUIContainer>
+    <Image>
+      <Image.Source>
+        <BitmapImage UriSource="/url/" />
+      </Image.Source>
+    </Image>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+  <InlineUIContainer>
+    <Image>
+      <Image.Source>
+        <BitmapImage UriSource="/url/" />
+      </Image.Source>
+    </Image>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+  <InlineUIContainer>
+    <Image>
+      <Image.Source>
+        <BitmapImage UriSource="/url/" />
+      </Image.Source>
+    </Image>
+  </InlineUIContainer>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+  <InlineUIContainer>
+    <Image>
+      <Image.Source>
+        <BitmapImage UriSource="" />
+      </Image.Source>
+    </Image>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+  <InlineUIContainer>
+    <Image>
+      <Image.Source>
+        <BitmapImage UriSource="http://example.com/(parens).jpg" />
+      </Image.Source>
+    </Image>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+  <InlineUIContainer>
+    <Image>
+      <Image.Source>
+        <BitmapImage UriSource="/url/" />
+      </Image.Source>
+    </Image>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+  <InlineUIContainer>
+    <Image>
+      <Image.Source>
+        <BitmapImage UriSource="/url/" />
+      </Image.Source>
+    </Image>
+  </InlineUIContainer>
+</Paragraph>

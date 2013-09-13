@@ -1,0 +1,23 @@
+<!-- H1 -->
+<Paragraph Style="{StaticResource Heading1}">Character Escapes</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+The MD5 value for <InlineUIContainer Style="{StaticResource InlineCodeStyle}">+</InlineUIContainer> is "26b17225b626fb9238849fd60eabdf60".
+</Paragraph>
+
+<!-- H1 -->
+<Paragraph Style="{StaticResource Heading1}">HTML Blocks</Paragraph>
+
+<!-- HTML Block -->
+<p>test</p>
+
+<!-- Paragraph -->
+<Paragraph>
+The MD5 value for <InlineUIContainer Style="{StaticResource InlineCodeStyle}">&lt;p&gt;test&lt;/p&gt;</InlineUIContainer> is:
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+6205333b793f34273d75379350b36826
+</Paragraph>

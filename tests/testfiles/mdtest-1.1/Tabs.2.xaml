@@ -1,0 +1,41 @@
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Code:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>this code block is indented by one tab</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+And:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>    this code block is indented by two tabs</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+And:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>+   this is an example list item
+    indented with tabs
+
++   this is an example list item
+    indented with spaces</Paragraph>

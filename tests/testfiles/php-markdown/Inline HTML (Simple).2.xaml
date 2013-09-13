@@ -1,0 +1,24 @@
+<!-- Paragraph -->
+<Paragraph>
+With some attributes:
+</Paragraph>
+
+<!-- HTML Block -->
+<div id="test">
+    foo
+</div>
+
+<!-- HTML Block -->
+<div id="test"
+     class="nono">
+    foo
+</div>
+
+<!-- Paragraph -->
+<Paragraph>
+Hr's:
+</Paragraph>
+
+<!-- HTML Block -->
+<hr class="foo"
+    id="bar" >

@@ -1,0 +1,77 @@
+<!-- H1 -->
+<Paragraph Style="{StaticResource Heading1}">Header</Paragraph>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Header</Paragraph>
+
+<!-- H3 -->
+<Paragraph Style="{StaticResource Heading3}">Header</Paragraph>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- H1 -->
+<Paragraph Style="{StaticResource Heading1}">Header</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Paragraph
+</Paragraph>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Header</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Paragraph
+</Paragraph>
+
+<!-- H3 -->
+<Paragraph Style="{StaticResource Heading3}">Header</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Paragraph
+</Paragraph>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- Paragraph -->
+<Paragraph>
+Paragraph
+</Paragraph>
+
+<!-- H1 -->
+<Paragraph Style="{StaticResource Heading1}">Header</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Paragraph
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Paragraph
+</Paragraph>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Header</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Paragraph
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Paragraph
+</Paragraph>
+
+<!-- H3 -->
+<Paragraph Style="{StaticResource Heading3}">Header</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Paragraph
+</Paragraph>

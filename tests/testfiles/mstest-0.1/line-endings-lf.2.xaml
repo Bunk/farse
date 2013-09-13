@@ -1,0 +1,98 @@
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Header</Paragraph>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- Paragraph -->
+<Paragraph>
+Some <Bold>bold</Bold> Some <Italic>italic</Italic> and <!-- Hyperlink --><Hyperlink NavigateUri="http://www.google.com">a link</Hyperlink>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+A little code sample
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;/head&gt;
+&lt;title&gt;Web Page Title&lt;/title&gt;
+&lt;/head&gt;</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+A picture
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+  <InlineUIContainer>
+    <Image>
+      <Image.Source>
+        <BitmapImage UriSource="http://www.google.com/intl/en_ALL/images/logo.gif" />
+      </Image.Source>
+    </Image>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+A list
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->apples
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->oranges
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->eggs
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+A numbered list
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->a
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->b
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->c
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+A little quote
+</Paragraph>
+
+<!-- Quoted Block -->
+<Paragraph Style="{StaticResource BlockQuote}">
+  <!-- Paragraph -->
+  <Paragraph>
+It is now time for all good men to come to the aid of their country.
+  </Paragraph>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+A final paragraph.
+</Paragraph>

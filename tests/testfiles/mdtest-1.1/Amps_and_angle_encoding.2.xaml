@@ -1,0 +1,44 @@
+<!-- Paragraph -->
+<Paragraph>
+AT&amp;T has an ampersand in their name.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+AT&amp;T is another way to write it.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+This &amp; that.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+4 &lt; 5.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+6 > 5.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Here's a <!-- Hyperlink --><Hyperlink NavigateUri="http://example.com/?foo=1&amp;bar=2">link</Hyperlink> with an ampersand in the URL.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Here's a link with an amersand in the link text: <!-- Hyperlink --><Hyperlink NavigateUri="http://att.com/">AT&amp;T</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Here's an inline <!-- Hyperlink --><Hyperlink NavigateUri="/script?foo=1&amp;bar=2">link</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Here's an inline <!-- Hyperlink --><Hyperlink NavigateUri="/script?foo=1&amp;bar=2">link</Hyperlink>.
+</Paragraph>

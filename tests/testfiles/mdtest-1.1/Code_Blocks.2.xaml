@@ -1,0 +1,27 @@
+<!-- CodeBlock -->
+<Paragraph>code block on the first line</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Regular text.
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>code block indented by spaces</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Regular text.
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>the lines in this block  
+all contain trailing spaces  </Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Regular Text.
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>code block on the last line</Paragraph>

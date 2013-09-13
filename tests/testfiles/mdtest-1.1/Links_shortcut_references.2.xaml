@@ -1,0 +1,21 @@
+<!-- Paragraph -->
+<Paragraph>
+This is the <!-- Hyperlink --><Hyperlink NavigateUri="/simple">simple case</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+This one has a <!-- Hyperlink --><Hyperlink NavigateUri="/foo">line
+break</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+This one has a <!-- Hyperlink --><Hyperlink NavigateUri="/foo">line 
+break</Hyperlink> with a line-ending space.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+<!-- Hyperlink --><Hyperlink NavigateUri="/that">this</Hyperlink> and the <!-- Hyperlink --><Hyperlink NavigateUri="/other">other</Hyperlink>
+</Paragraph>

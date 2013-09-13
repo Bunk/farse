@@ -1,0 +1,9 @@
+<!-- Paragraph -->
+<Paragraph>
+Foo <!-- Hyperlink --><Hyperlink NavigateUri="/url/">bar</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Foo <!-- Hyperlink --><Hyperlink NavigateUri="/url/">bar</Hyperlink>.
+</Paragraph>

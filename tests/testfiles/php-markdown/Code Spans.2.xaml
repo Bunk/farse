@@ -1,0 +1,12 @@
+<!-- Paragraph -->
+<Paragraph>
+From <InlineUIContainer Style="{StaticResource InlineCodeStyle}">&lt;!--</InlineUIContainer> to <InlineUIContainer Style="{StaticResource InlineCodeStyle}">--&gt;</InlineUIContainer>
+on two lines.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+From <InlineUIContainer Style="{StaticResource InlineCodeStyle}">&lt;!--</InlineUIContainer>
+to <InlineUIContainer Style="{StaticResource InlineCodeStyle}">--&gt;</InlineUIContainer>
+on three lines.
+</Paragraph>

@@ -1,0 +1,25 @@
+<!-- Paragraph -->
+<Paragraph>
+Paragraph one.
+</Paragraph>
+
+<!-- HTML Block -->
+<!-- This is a simple comment -->
+
+<!-- HTML Block -->
+<!--
+    This is another comment.
+-->
+
+<!-- Paragraph -->
+<Paragraph>
+Paragraph two.
+</Paragraph>
+
+<!-- HTML Block -->
+<!-- one comment block -- -- with two comments -->
+
+<!-- Paragraph -->
+<Paragraph>
+The end.
+</Paragraph>

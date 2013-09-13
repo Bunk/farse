@@ -1,0 +1,120 @@
+<!-- Paragraph -->
+<Paragraph>
+Foo <!-- Hyperlink --><Hyperlink NavigateUri="/url/">bar</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Foo <!-- Hyperlink --><Hyperlink NavigateUri="/url/">bar</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Foo <!-- Hyperlink --><Hyperlink NavigateUri="/url/">bar</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+With <!-- Hyperlink --><Hyperlink NavigateUri="/url/">embedded [brackets]</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Indented <!-- Hyperlink --><Hyperlink NavigateUri="/url">once</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Indented <!-- Hyperlink --><Hyperlink NavigateUri="/url">twice</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Indented <!-- Hyperlink --><Hyperlink NavigateUri="/url">thrice</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Indented [four][] times.
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>[four]: /url</Paragraph>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- Paragraph -->
+<Paragraph>
+<!-- Hyperlink --><Hyperlink NavigateUri="foo">this</Hyperlink> should work
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+So should <!-- Hyperlink --><Hyperlink NavigateUri="foo">this</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+And <!-- Hyperlink --><Hyperlink NavigateUri="foo">this</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+And <!-- Hyperlink --><Hyperlink NavigateUri="foo">this</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+And <!-- Hyperlink --><Hyperlink NavigateUri="foo">this</Hyperlink>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+But not [that] [].
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Nor [that][].
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Nor [that].
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+[Something in brackets like <!-- Hyperlink --><Hyperlink NavigateUri="foo">this</Hyperlink> should work]
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+[Same with <!-- Hyperlink --><Hyperlink NavigateUri="foo">this</Hyperlink>.]
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+In this case, <!-- Hyperlink --><Hyperlink NavigateUri="/somethingelse/">this</Hyperlink> points to something else.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Backslashing should suppress [this] and [this].
+</Paragraph>
+
+<!-- HR -->
+<BlockUIContainer>  <Line X2="1" StrokeThickness="1" /></BlockUIContainer>
+
+<!-- Paragraph -->
+<Paragraph>
+Here's one where the <!-- Hyperlink --><Hyperlink NavigateUri="/url/">link
+breaks</Hyperlink> across lines.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Here's another where the <!-- Hyperlink --><Hyperlink NavigateUri="/url/">link 
+breaks</Hyperlink> across lines, but with a line-ending space.
+</Paragraph>

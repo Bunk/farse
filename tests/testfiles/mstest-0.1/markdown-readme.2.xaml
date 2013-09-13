@@ -1,0 +1,387 @@
+<!-- H1 -->
+<Paragraph Style="{StaticResource Heading1}">Markdown</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Version 1.0.1 - Tue 14 Dec 2004
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+by John Gruber<LineBreak />
+<!-- Hyperlink --><Hyperlink NavigateUri="http://daringfireball.net/">http://daringfireball.net/</Hyperlink>
+</Paragraph>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Introduction</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Markdown is a text-to-HTML conversion tool for web writers. Markdown
+allows you to write using an easy-to-read, easy-to-write plain text
+format, then convert it to structurally valid XHTML (or HTML).
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Thus, "Markdown" is two things: a plain text markup syntax, and a
+software tool, written in Perl, that converts the plain text markup 
+to HTML.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Markdown works both as a Movable Type plug-in and as a standalone Perl
+script -- which means it can also be used as a text filter in BBEdit
+(or any other application that supporst filters written in Perl).
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Full documentation of Markdown's syntax and configuration options is
+available on the web: <!-- Hyperlink --><Hyperlink NavigateUri="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</Hyperlink>.
+(Note: this readme file is formatted in Markdown.)
+</Paragraph>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Installation and Requirements</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Markdown requires Perl 5.6.0 or later. Welcome to the 21st Century.
+Markdown also requires the standard Perl library module <InlineUIContainer Style="{StaticResource InlineCodeStyle}">Digest::MD5</InlineUIContainer>.
+</Paragraph>
+
+<!-- H3 -->
+<Paragraph Style="{StaticResource Heading3}">Movable Type</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Markdown works with Movable Type version 2.6 or later (including 
+MT 3.0 or later).
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+        <!-- List Code Block -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Note that by default, Markdown produces XHTML output. To configure
+Markdown to produce HTML 4 output, see "Configuration", below.
+</Paragraph>
+
+<!-- H3 -->
+<Paragraph Style="{StaticResource Heading3}">Blosxom</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Markdown works with Blosxom version 2.x.
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+        <!-- List Paragraph -->
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- H3 -->
+<Paragraph Style="{StaticResource Heading3}">BBEdit</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Markdown works with BBEdit 6.1 or later on Mac OS X. (It also works
+with BBEdit 5.1 or later and MacPerl 5.6.1 on Mac OS 8.6 or later.)
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+        <!-- List Code Block -->
+        <!-- List Paragraph -->
+        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Configuration</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+By default, Markdown produces XHTML output for tags with empty elements.
+E.g.:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;br /&gt;</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Markdown can be configured to produce HTML-style tags; e.g.:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;br&gt;</Paragraph>
+
+<!-- H3 -->
+<Paragraph Style="{StaticResource Heading3}">Movable Type</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+You need to use a special <InlineUIContainer Style="{StaticResource InlineCodeStyle}">MTMarkdownOptions</InlineUIContainer> container tag in each
+Movable Type template where you want HTML 4-style output:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;MTMarkdownOptions output='html4'&gt;
+    ... put your entry content here ...
+&lt;/MTMarkdownOptions&gt;</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+The easiest way to use MTMarkdownOptions is probably to put the
+opening tag right after your <InlineUIContainer Style="{StaticResource InlineCodeStyle}">&lt;body&gt;</InlineUIContainer> tag, and the closing tag right
+before <InlineUIContainer Style="{StaticResource InlineCodeStyle}">&lt;/body&gt;</InlineUIContainer>.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+To suppress Markdown processing in a particular template, i.e. to
+publish the raw Markdown-formatted text without translation into
+(X)HTML, set the <InlineUIContainer Style="{StaticResource InlineCodeStyle}">output</InlineUIContainer> attribute to 'raw':
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>&lt;MTMarkdownOptions output='raw'&gt;
+    ... put your entry content here ...
+&lt;/MTMarkdownOptions&gt;</Paragraph>
+
+<!-- H3 -->
+<Paragraph Style="{StaticResource Heading3}">Command-Line</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Use the <InlineUIContainer Style="{StaticResource InlineCodeStyle}">--html4tags</InlineUIContainer> command-line switch to produce HTML output from a
+Unix-style command line. E.g.:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>% perl Markdown.pl --html4tags foo.text</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Type <InlineUIContainer Style="{StaticResource InlineCodeStyle}">perldoc Markdown.pl</InlineUIContainer>, or read the POD documentation within the
+Markdown.pl source code for more information.
+</Paragraph>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Bugs</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+To file bug reports or feature requests please send email to:
+markdown@daringfireball.net.
+</Paragraph>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Version History</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+1.0.1 (14 Dec 2004):
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+        <!-- List Code Block -->
+        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+        <!-- List Code Block -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+        <!-- List Code Block -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+        <!-- List Code Block -->
+        <!-- Nested List -->
+          <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+          <TextBlock Grid.Column="0">&#x2022;</TextBlock>            <!-- List Paragraph -->
+            <!-- List Paragraph -->
+          </Grid>
+          <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+          <TextBlock Grid.Column="0">&#x2022;</TextBlock><!-- Spans -->I recommend upgrading to version
+            <!-- Nested List -->
+              <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+              <TextBlock Grid.Column="0">&#x2022;</TextBlock>                <!-- List Paragraph -->
+                <!-- List Paragraph -->
+              </Grid>
+          </Grid>
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+        <!-- List Code Block -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+        <!-- List Code Block -->
+        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+        <!-- List Code Block -->
+        <!-- List Paragraph -->
+        <!-- List Code Block -->
+        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+        <!-- List Code Block -->
+        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+        <!-- List Code Block -->
+        <!-- List Paragraph -->
+        <!-- List Code Block -->
+        <!-- List Paragraph -->
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Donations</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Donations to support Markdown's development are happily accepted. See:
+<!-- Hyperlink --><Hyperlink NavigateUri="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</Hyperlink> for details.
+</Paragraph>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Copyright and License</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Copyright (c) 2003-2004 John Gruber <LineBreak />
+<!-- Hyperlink --><Hyperlink NavigateUri="http://daringfireball.net/">http://daringfireball.net/</Hyperlink> <LineBreak />
+All rights reserved.
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+</Paragraph>
+
+<!-- List (Farse.Markdown.MarkdownListKind) -->
+<Paragraph>
+  <InlineUIContainer>
+    <StackPanel>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+      <Grid><Grid.ColumnDefinitions><ColumnDefinition Width="15" /><ColumnDefinition /></Grid.ColumnDefinitions>
+      <TextBlock Grid.Column="0">&#x2022;</TextBlock>        <!-- List Paragraph -->
+      </Grid>
+    </StackPanel>
+  </InlineUIContainer>
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+This software is provided by the copyright holders and contributors "as
+is" and any express or implied warranties, including, but not limited
+to, the implied warranties of merchantability and fitness for a
+particular purpose are disclaimed. In no event shall the copyright owner
+or contributors be liable for any direct, indirect, incidental, special,
+exemplary, or consequential damages (including, but not limited to,
+procurement of substitute goods or services; loss of use, data, or
+profits; or business interruption) however caused and on any theory of
+liability, whether in contract, strict liability, or tort (including
+negligence or otherwise) arising in any way out of the use of this
+software, even if advised of the possibility of such damage.
+</Paragraph>

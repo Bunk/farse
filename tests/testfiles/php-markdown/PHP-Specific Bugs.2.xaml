@@ -1,0 +1,29 @@
+<!-- Paragraph -->
+<Paragraph>
+This tests for a bug where quotes escaped by PHP when using 
+<InlineUIContainer Style="{StaticResource InlineCodeStyle}">preg_replace</InlineUIContainer> with the <InlineUIContainer Style="{StaticResource InlineCodeStyle}">/e</InlineUIContainer> modifier must be correctly unescaped
+(hence the <InlineUIContainer Style="{StaticResource InlineCodeStyle}">_UnslashQuotes</InlineUIContainer> function found only in PHP Markdown).
+</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Headers below should appear exactly as they are typed (no backslash
+added or removed).
+</Paragraph>
+
+<!-- H1 -->
+<Paragraph Style="{StaticResource Heading1}">Header "quoted\" again \""</Paragraph>
+
+<!-- H2 -->
+<Paragraph Style="{StaticResource Heading2}">Header "quoted\" again \""</Paragraph>
+
+<!-- H3 -->
+<Paragraph Style="{StaticResource Heading3}">Header "quoted\" again \""</Paragraph>
+
+<!-- Paragraph -->
+<Paragraph>
+Test with tabs for <InlineUIContainer Style="{StaticResource InlineCodeStyle}">_Detab</InlineUIContainer>:
+</Paragraph>
+
+<!-- CodeBlock -->
+<Paragraph>Code    'block' with    some    "tabs"  and "quotes"</Paragraph>

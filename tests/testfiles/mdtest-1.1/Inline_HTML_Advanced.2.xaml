@@ -1,0 +1,46 @@
+<!-- Paragraph -->
+<Paragraph>
+Simple block on one line:
+</Paragraph>
+
+<!-- HTML Block -->
+<div>foo</div>
+
+<!-- Paragraph -->
+<Paragraph>
+And nested without indentation:
+</Paragraph>
+
+<!-- HTML Block -->
+<div>
+<div>
+<div>
+foo
+</div>
+<div style=">"/>
+</div>
+<div>bar</div>
+</div>
+
+<!-- Paragraph -->
+<Paragraph>
+And with attributes:
+</Paragraph>
+
+<!-- HTML Block -->
+<div>
+    <div id="foo">
+    </div>
+</div>
+
+<!-- Paragraph -->
+<Paragraph>
+This was broken in 1.0.2b7:
+</Paragraph>
+
+<!-- HTML Block -->
+<div class="inlinepage">
+<div class="toggleableend">
+foo
+</div>
+</div>
